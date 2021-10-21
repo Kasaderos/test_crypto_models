@@ -50,6 +50,7 @@ sleep_duration = 60 * 60 * 4 # sec
 
 model = LM()
 iteration = 0
+print("test started")
 while True:
 	last_price = get_price() 
 	value = model.predict(get_parsed_data())
